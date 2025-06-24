@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lukasz_pe
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lukasz_pe
+  template:
+    metadata:
+      labels:
+        app: lukasz_pe
+    spec:
+      containers:
+        - name: lukasz_pe
+          image: your-docker-image
+          ports:
+            - containerPort: 8080
