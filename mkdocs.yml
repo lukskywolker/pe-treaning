@@ -1,0 +1,6 @@
+site_name: lukaszbe-micro
+nav:
+  - Home: index.md
+plugins:
+  - techdocs-core
+
