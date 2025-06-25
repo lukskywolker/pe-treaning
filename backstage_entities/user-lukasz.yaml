@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: lukaszbe-micro
+spec:
+  profile:
+    displayName: Lukasz
+    email: lkbabiarz@gmail.com
+
