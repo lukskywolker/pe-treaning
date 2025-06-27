@@ -5,13 +5,7 @@ metadata:
   description: A Flask microservice with CI/CD and observability
   annotations:
     github.com/project-slug:  lukskywolker/pe-treaning 
-    backstage.io/techdocs-ref: dir:.
-      #    prometheus.io/scrape: "true"
-      #    loki.io/logs: "true"
 spec:
   type: service
   lifecycle: production
   owner: user:lukasz
-    #  owner: group:platform-team
-    #  dependsOn:
-    #- component:default/example-website
