@@ -1,5 +1,2 @@
 flask
 prometheus_client
-nginx
-prometheus_client
-
