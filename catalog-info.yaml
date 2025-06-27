@@ -6,11 +6,12 @@ metadata:
   annotations:
     github.com/project-slug:  lukskywolker/pe-treaning 
     backstage.io/techdocs-ref: dir:.
-    prometheus.io/scrape: "true"
-    loki.io/logs: "true"
+      #    prometheus.io/scrape: "true"
+      #    loki.io/logs: "true"
 spec:
   type: service
-  lifecycle: experimental
-  owner: group:platform-team
-  dependsOn:
-    - component:default/example-website
+  lifecycle: production
+  owner: user:lukasz
+    #  owner: group:platform-team
+    #  dependsOn:
+    #- component:default/example-website
