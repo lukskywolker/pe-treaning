@@ -1,6 +1,5 @@
 flask
 prometheus_client
 nginx
-CopyEdit
 prometheus_client
 
